@@ -41,7 +41,7 @@ img {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: #222;
 }
 
 .container {
@@ -60,7 +60,7 @@ img {
   margin-bottom: 40px;
   text-align: center;
   letter-spacing: .05em;
-  color: #333;
+  color: navajowhite;
 }
 
 .lead {
@@ -77,7 +77,7 @@ img {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #fff;
+  background-color: #222;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
 
@@ -97,7 +97,7 @@ img {
 }
 
 .header-logo a {
-  color: #333;
+  color: navajowhite;
 }
 
 .gnav-list {
@@ -118,7 +118,7 @@ img {
   padding: 5px 0;
   transition: .3s;
   letter-spacing: .05em;
-  color: #333;
+  color: navajowhite;
 }
 .gnav-item a:after {
   position: absolute;
@@ -130,7 +130,7 @@ img {
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #333;
+  background-color: navajowhite;
 }
 
 .gnav-item a:hover:after {
@@ -146,6 +146,7 @@ img {
   justify-content: center;
   height: 85vh;
   text-align: center;
+  background-color: #333;
 }
 
 .mv-container {
@@ -185,7 +186,7 @@ img {
   width: 31.74603%;
   margin-right: 1.58730%;
   margin-bottom: 40px;
-  color: #333;
+  color: navajowhite;
 }
 
 .works-item:hover {
@@ -210,6 +211,18 @@ img {
   font-size: 10px;
   margin-top: 5px;
 }
+
+.works-video{
+  position: relative;
+  height: 0;
+}
+
+.works-video iframe{
+  width: 400px;
+  height: 300px;
+  border: 0;
+}
+
 
 /*--------------------------------
  Skill
@@ -257,6 +270,7 @@ img {
   max-width: 800px;
   margin: 0 auto;
 }
+
 .profile-img {
   width: 20%;
   margin-right: 30px;
@@ -283,6 +297,7 @@ img {
 ---------------------------------*/
 .contact {
   text-align: center;
+  
 }
 
 .contact-item:not(:last-child) {
@@ -291,6 +306,7 @@ img {
 
 .contact-text {
   margin-top: 10px;
+  color: navajowhite;
 }
 /*--------------------------------
  ページトップ
@@ -300,12 +316,12 @@ img {
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  background-color: #4c4c4c;
+  background-color: #222;
 }
 
 .page-top .material-icons-outlined {
   vertical-align: bottom;
-  color: #fff;
+  color: navajowhite;
 }
 
 /*--------------------------------
@@ -319,7 +335,7 @@ img {
 .copyright {
   font-size: 10px;
   text-align: center;
-  color: #797979;
+  color: navajowhite;
 }
 
 /*--------------------------------
@@ -327,6 +343,7 @@ img {
 ---------------------------------*/
 .article {
   padding: 80px 0;
+  background-color: #222;
 }
 
 .article-container {
@@ -344,6 +361,7 @@ img {
   max-width: 720px;
   margin: 0 auto;
   margin-bottom: 80px;
+  background-color: #222;
 }
 
 .article-body h3 {
@@ -509,6 +527,7 @@ img {
   .profile {
     display: block;
   }
+  
   .profile-img {
     width: 150px;
     margin: 0 auto;
