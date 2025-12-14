@@ -17,6 +17,7 @@
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel=”canonical” href=”URLが入る” />
+  <script src="./js/lang-toggle.js" defer></script>  
 </head>
 
 <body>
@@ -25,25 +26,29 @@
     <!-- header -->
     <header class="header ">
       <div class="container">
-        <h1 class="header-logo">
+        <h1 class="header-logo" >
           <a href=".">SHIBATA AKI</a>
         </h1>
-        <label class="toggle-row">
-          <span lang="en" class="toggle-label">EN</span>
+        <label class="language-toggle">
+          <span lang="en" class="toggle-label">ENG</span>
           <span lang="ja" class="toggle-label">英語</span>
           <span class="toggle-container">
               <input type="checkbox" id="lang-toggle" />
               <span class="language-slider"></span>
           </span>
-          <span lang="en" class="toggle-label">JP</span>
+          <span lang="en" class="toggle-label">JAP&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span lang="ja" class="toggle-label">日本語</span>
         </label>
         <nav class="gnav">
           <ul class="gnav-list">
-            <li class="gnav-item"><a href="#works">WORKS</a></li>
-            <li class="gnav-item"><a href="#skill">SKILL</a></li>
-            <li class="gnav-item"><a href="#about">ABOUT</a></li>
-            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+            <li class="gnav-item" lang="en"><a href="#works">WORKS</a></li>
+            <li class="gnav-item" lang="ja"><a href="#works">作品</a></li>
+            <li class="gnav-item" lang="en"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item" lang="ja"><a href="#skill">スキル</a></li>
+            <li class="gnav-item" lang="en"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item" lang="ja"><a href="#about">プロフィール</a></li>
+            <li class="gnav-item" lang="en"><a href="#contact">CONTACT</a></li>
+            <li class="gnav-item" lang="ja"><a href="#contact">連絡</a></li>
           </ul>
         </nav>
       </div>
@@ -56,10 +61,15 @@
       <div class="mv">
         <div class="mv-container">
           <p class="mv-title">SHIBATA AKI</p>
-          <p class="mv-subtitle">PORTFOLIO</p>
-          <p class="mv-text">
+          <p class="mv-subtitle" lang="en">PORTFOLIO<br/><br/></p>
+          <p class="mv-subtitle" lang="ja">ポートフォリオ<br/><br/></p>
+          <p class="mv-text" lang="ja">
             ユーザーとお客様が心から満足できる<br class="sp-only">サイトをお作りいたします。<br>
             デザインとコーディングは<br class="sp-only">おまかせください。<br>
+          </p>
+          <p class="mv-text" lang="en">
+            This is my portolio show casing various different projects I have worked on.<br/>
+            feel free to contact me via my details at the bottom.
           </p>
         </div>
       </div>
@@ -78,8 +88,10 @@
                                         allowfullscreen>
                                       </iframe>
               </div>
-              <p class="works-name">作品名が入る</p>
-              <p class="works-info">Design / Coding(Responsive)</p>
+              <p class="works-name" lang="ja">作品名が入る<br/></p>
+              <p class="works-info" lang="ja">作品の説明をここに書いてください</p>
+              <p class="works-name" lang="en">PROJECT TITLE<br/></p>
+              <p class="works-info" lang="en">Project Description here</p>
             </a>
             <a class="works-item" href="works-template.html">
               <div class="works-video"><iframe 
@@ -89,8 +101,10 @@
                                         allowfullscreen>
                                       </iframe>
               </div>
-              <p class="works-name">作品名が入る</p>
-              <p class="works-info">Design / Coding(Responsive) / WordPress</p>
+              <p class="works-name" lang="ja">作品名が入る<br/></p>
+              <p class="works-info" lang="ja">作品の説明をここに書いてください</p>
+              <p class="works-name" lang="en">PROJECT TITLE<br/></p>
+              <p class="works-info" lang="en">Project Description here</p>
             </a>
             <a class="works-item" href="works-template.html">
               <div class="works-video"><iframe 
@@ -100,8 +114,10 @@
                                         allowfullscreen>
                                       </iframe>
               </div>
-              <p class="works-name">作品名が入る</p>
-              <p class="works-info">Design</p>
+              <p class="works-name" lang="ja">作品名が入る<br/></p>
+              <p class="works-info" lang="ja">作品の説明をここに書いてください</p>
+              <p class="works-name" lang="en">PROJECT TITLE<br/></p>
+              <p class="works-info" lang="en">Project Description here</p>
             </a>
             <a class="works-item" href="works-template.html">
               <div class="works-video"><iframe 
@@ -111,8 +127,10 @@
                                         allowfullscreen>
                                       </iframe>
               </div>
-              <p class="works-name">作品名が入る</p>
-              <p class="works-info">Banner Design</p>
+              <p class="works-name" lang="ja">作品名が入る<br/></p>
+              <p class="works-info" lang="ja">作品の説明をここに書いてください</p>
+              <p class="works-name" lang="en">PROJECT TITLE<br/></p>
+              <p class="works-info" lang="en">Project Description here</p>
             </a>
             <a class="works-item" href="works-template.html">
               <div class="works-video"><iframe 
@@ -122,8 +140,10 @@
                                         allowfullscreen>
                                       </iframe>
               </div>
-              <p class="works-name">作品名が入る</p>
-              <p class="works-info">Banner Design</p>
+              <p class="works-name" lang="ja">作品名が入る<br/></p>
+              <p class="works-info" lang="ja">作品の説明をここに書いてください</p>
+              <p class="works-name" lang="en">PROJECT TITLE<br/></p>
+              <p class="works-info" lang="en">Project Description here</p>
             </a>
           </div>
         </div>
@@ -212,9 +232,13 @@
       <!-- contact -->
       <section class="contact section" id="contact">
         <div class="container">
-          <h2 class="title">CONTACT AND SOCIAL</h2>
-          <p class="lead">
-            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。
+          <h2 class="title" lang="en">CONTACT AND SOCIAL</h2>
+          <h2 class="title" lang="ja">連絡先とSNS情報</h2>
+          <p class="lead" lang="ja"><br/><br/>
+            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。<br/><br/>
+          </p>
+          <p class="lead" lang="en"><br/><br/>
+            Please feel free to contact me via my e-mail or LinkedIn<br/><br/>
           </p>
           <div class="contact-list">
             <a class="contact-item" href="https://github.com/thewakiaki" target="_blank" rel="noopener">GitHub</a>

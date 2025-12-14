@@ -92,7 +92,7 @@ img {
   font-size: 20px;
   font-weight: bold;
   line-height: 1.2;
-  margin-right: 20px;
+  padding-left: 2rem;
   letter-spacing: .05em;
 }
 
@@ -140,6 +140,52 @@ img {
 /*--------------------------------
  言語切り替え
 ---------------------------------*/
+.toggle-container {
+  position: relative;
+  width: 3.5rem;          
+  height: 1.8rem;
+}
+
+.language-toggle{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 5rem;
+}
+
+.language-toggle input{
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.language-slider{
+  position: absolute;
+  inset: 0;
+  background-color: navajowhite;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.language-slider:before {
+  position: absolute;
+  content: "";
+  height: 1.5rem;
+  width: 1.5rem;
+  left: 0.2rem;
+  top: 0.1575rem;
+  background-color: #333;
+  transition: .4s;
+  border-radius: 50%;
+}
+input:checked + .language-slider:before {
+  transform: translateX(1.6rem);
+  background-color: #333;
+}
 
 /*--------------------------------
  メインビジュアル
@@ -206,14 +252,15 @@ img {
 }
 
 .works-name {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   margin-top: 8px;
 }
 
 .works-info {
-  font-size: 10px;
-  margin-top: 5px;
+  font-size: 12px;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .works-video{
