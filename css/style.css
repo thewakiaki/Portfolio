@@ -263,6 +263,10 @@ input:checked + .language-slider:before {
   margin-bottom: 0.25rem;
 }
 
+.italic-font{
+  font-style: italic;
+}
+
 .works-video{
   position: relative;
   width: 100%;
