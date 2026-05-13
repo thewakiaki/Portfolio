@@ -1,272 +1,531 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta property='og:type' content='website'>
-  <meta property='og:title' content='WebデザイナーTARO YAMADA ポートフォリオ'>
-  <meta property='og:url' content='URLが入る'>
-  <meta property='og:description' content='TARO YAMADAのポートフォリオサイトです。'>
-  <meta property="og:image" content="img/ogp.png">
-  <meta name="description" content="TARO YAMADAのポートフォリオサイトです" />
-  <title>SHIBATA AKI ポートフォリオ</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
-  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-  <link rel="shortcut icon" href="img/favicon.ico" />
-  <link rel=”canonical” href=”URLが入る” />
-  <script src="./js/lang-toggle.js" defer></script>  
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:title"
+            content="WebデザイナーTARO YAMADA ポートフォリオ"
+        />
+        <meta property="og:url" content="URLが入る" />
+        <meta
+            property="og:description"
+            content="TARO YAMADAのポートフォリオサイトです。"
+        />
+        <meta property="og:image" content="img/ogp.png" />
+        <meta
+            name="description"
+            content="TARO YAMADAのポートフォリオサイトです"
+        />
+        <title>SHIBATA AKI ポートフォリオ</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined"
+            rel="stylesheet"
+        />
+        <link
+            href="css/ress.css"
+            media="all"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="css/style.css"
+            media="all"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link rel="”canonical”" href="”URLが入る”" />
+        <script src="./js/lang-toggle.js" defer></script>
+    </head>
 
-<body>
-  <div class="wrapper">
+    <body>
+        <div class="wrapper">
+            <!-- header -->
+            <header class="header">
+                <div class="container">
+                    <h1 class="header-logo">
+                        <a href="." lang="en">AKI SHIBATA</a>
+                        <a href="." lang="ja">柴田　秋</a>
+                    </h1>
+                    <label class="language-toggle">
+                        <span lang="en" class="toggle-label">ENG</span>
+                        <span lang="ja" class="toggle-label">英語</span>
+                        <span class="toggle-container">
+                            <input type="checkbox" id="lang-toggle" />
+                            <span class="language-slider"></span>
+                        </span>
+                        <span lang="en" class="toggle-label"
+                            >JAP&nbsp;&nbsp;&nbsp;&nbsp;</span
+                        >
+                        <span lang="ja" class="toggle-label">日本語</span>
+                    </label>
+                    <nav class="gnav">
+                        <ul class="gnav-list">
+                            <li class="gnav-item" lang="en">
+                                <a href="#works">WORKS</a>
+                            </li>
+                            <li class="gnav-item" lang="ja">
+                                <a href="#works">作品</a>
+                            </li>
+                            <li class="gnav-item" lang="en">
+                                <a href="#skill">SKILL</a>
+                            </li>
+                            <li class="gnav-item" lang="ja">
+                                <a href="#skill">スキル</a>
+                            </li>
+                            <li class="gnav-item" lang="en">
+                                <a href="#about">ABOUT</a>
+                            </li>
+                            <li class="gnav-item" lang="ja">
+                                <a href="#about">プロフィール</a>
+                            </li>
+                            <li class="gnav-item" lang="en">
+                                <a href="#contact">CONTACT</a>
+                            </li>
+                            <li class="gnav-item" lang="ja">
+                                <a href="#contact">連絡</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <!-- /header -->
 
-    <!-- header -->
-    <header class="header ">
-      <div class="container">
-        <h1 class="header-logo" >
-          <a href=".">SHIBATA AKI</a>
-        </h1>
-        <label class="language-toggle">
-          <span lang="en" class="toggle-label">ENG</span>
-          <span lang="ja" class="toggle-label">英語</span>
-          <span class="toggle-container">
-              <input type="checkbox" id="lang-toggle" />
-              <span class="language-slider"></span>
-          </span>
-          <span lang="en" class="toggle-label">JAP&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <span lang="ja" class="toggle-label">日本語</span>
-        </label>
-        <nav class="gnav">
-          <ul class="gnav-list">
-            <li class="gnav-item" lang="en"><a href="#works">WORKS</a></li>
-            <li class="gnav-item" lang="ja"><a href="#works">作品</a></li>
-            <li class="gnav-item" lang="en"><a href="#skill">SKILL</a></li>
-            <li class="gnav-item" lang="ja"><a href="#skill">スキル</a></li>
-            <li class="gnav-item" lang="en"><a href="#about">ABOUT</a></li>
-            <li class="gnav-item" lang="ja"><a href="#about">プロフィール</a></li>
-            <li class="gnav-item" lang="en"><a href="#contact">CONTACT</a></li>
-            <li class="gnav-item" lang="ja"><a href="#contact">連絡</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <!-- /header -->
+            <main class="content">
+                <!-- mv -->
+                <div class="mv">
+                    <div class="mv-container">
+                        <p class="mv-title" lang="en">AKI SHIBATA</p>
+                        <p class="mv-title" lang="ja">SHIBATA AKI</p>
+                        <p class="mv-subtitle" lang="en">
+                            PORTFOLIO<br /><br />
+                        </p>
+                        <p class="mv-subtitle" lang="ja">
+                            ポートフォリオ<br /><br />
+                        </p>
+                        <p class="mv-text" lang="ja">
+                            自分が開発したゲームやプログラムを披露する<br
+                                class="sp-only"
+                            />ためのポートフォリオです。<br />
+                            ご連絡はSNSかメールにてお願いします。<br
+                        </p>
+                        <p class="mv-text" lang="en">
+                            This is my portolio show casing various different
+                            projects I have worked on.<br />
+                            feel free to contact me via my details at the
+                            bottom.
+                        </p>
+                    </div>
+                </div>
+                <!-- /mv -->
 
-    <main class="content">
-
-      <!-- mv -->
-      <div class="mv">
-        <div class="mv-container">
-          <p class="mv-title">SHIBATA AKI</p>
-          <p class="mv-subtitle" lang="en">PORTFOLIO<br/><br/></p>
-          <p class="mv-subtitle" lang="ja">ポートフォリオ<br/><br/></p>
-          <p class="mv-text" lang="ja">
-            ユーザーとお客様が心から満足できる<br class="sp-only">サイトをお作りいたします。<br>
-            デザインとコーディングは<br class="sp-only">おまかせください。<br>
-          </p>
-          <p class="mv-text" lang="en">
-            This is my portolio show casing various different projects I have worked on.<br/>
-            feel free to contact me via my details at the bottom.
-          </p>
-        </div>
-      </div>
-      <!-- /mv -->
-
-      <!-- works -->
-      <section class="works section" id="works">
-        <div class="container">
-          <h2 class="title" lang="ja">作品</h2>
-          <h2 class="title" lang="en">WORKS</h2>
-          <div class="works-list">
-            <a class="works-item">
-              <div class="works-video"><iframe 
+                <!-- works -->
+                <section class="works section" id="works">
+                    <div class="container">
+                        <h2 class="title" lang="ja">作品</h2>
+                        <h2 class="title" lang="en">WORKS</h2>
+                        <div class="works-list">
+                            <a class="works-item">
+                                <div class="works-video">
+                                    <iframe
                                         src="https://www.youtube.com/embed/gcEkklhP8zE"
                                         title="Sky Runner - Endless runner game in C++ and OpenGL"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen>
-                                      </iframe>
-              </div>
-              <p class="works-name" lang="ja">スカイラナー: <span class="italic-font">C++, OpenGL, VisualStudio<br/></span></p>
-              <p class="works-info" lang="ja">自作のオブジェクトローダーでBlender製3Dモデルを読み込み、オブジェクトプーリングにより生成・破棄を削減し、パフォーマンスを向上させた
-                                              エンドレスラナーです</p>
-              <p class="works-name" lang="en">Sky Runner: <span class="italic-font">C++, OpenGL, VisualStudio<br/></span></p>
-              <p class="works-info" lang="en">An endless runner game featuring 3D assets modeled in Blender and imported using a custom object loader. 
-                                              Implemented object pooling to optimize performance by minimizing object creation and destruction overhead.</p>
-            </a>
-            <a class="works-item" href="works-template.html">
-              <div class="works-video"><iframe 
+                                        allow="
+                                            accelerometer;
+                                            autoplay;
+                                            clipboard-write;
+                                            encrypted-media;
+                                            gyroscope;
+                                            picture-in-picture;
+                                        "
+                                        allowfullscreen
+                                    >
+                                    </iframe>
+                                </div>
+                                <p class="works-name" lang="ja">
+                                    スカイラナー:
+                                    <span class="italic-font"
+                                        >C++, OpenGL, VisualStudio<br
+                                    /></span>
+                                </p>
+                                <p class="works-info" lang="ja">
+                                    自作のオブジェクトローダーでBlender製3Dモデルを読み込み、オブジェクトプーリングにより生成・破棄を減し、パフォーマンスを向上させた
+                                    エンドレスラナーです
+                                </p>
+                                <p class="works-name" lang="en">
+                                    Sky Runner:
+                                    <span class="italic-font"
+                                        >C++, OpenGL, VisualStudio<br
+                                    /></span>
+                                </p>
+                                <p class="works-info" lang="en">
+                                    An endless runner game featuring 3D assets
+                                    modeled in Blender and imported using a
+                                    custom object loader. Implemented object
+                                    pooling to optimize performance by
+                                    minimizing object creation and destruction
+                                    overhead.
+                                </p>
+                            </a>
+                            <a class="works-item" href="works-template.html">
+                                <div class="works-video">
+                                    <iframe
                                         src="https://www.youtube.com/embed/MBI4L9x8rI0?si=sz4zhqFQQBIAZkCf"
                                         title="Dungeon 4 - Dungeon crawler level using C++ with Unreal Engine 4"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen>
-                                      </iframe>
-              </div>
-              <p class="works-name" lang="ja">ダンジョン４: <span class="italic-font">UnrealEngine 4, C++<br/></span></p>
-              <p class="works-info" lang="ja">作品の説明をここに書いてください</p>
-              <p class="works-name" lang="en">Dungeon 4: <span class="italic-font">UnrealEngine 4, C++<br/></span></p>
-              <p class="works-info" lang="en">Project Description here</p>
-            </a>
-            <a class="works-item" href="works-template.html">
-              <div class="works-video"><iframe 
+                                        allow="
+                                            accelerometer;
+                                            autoplay;
+                                            clipboard-write;
+                                            encrypted-media;
+                                            gyroscope;
+                                            picture-in-picture;
+                                        "
+                                        allowfullscreen
+                                    >
+                                    </iframe>
+                                </div>
+                                <p class="works-name" lang="ja">
+                                    ダンジョン４:
+                                    <span class="italic-font"
+                                        >UnrealEngine 4, C++<br
+                                    /></span>
+                                </p>
+                                <p class="works-info" lang="ja">
+                                    ダンジョン内のモンスターを倒して最後まで進むゲームのデモ
+                                </p>
+                                <p class="works-name" lang="en">
+                                    Dungeon 4:
+                                    <span class="italic-font"
+                                        >UnrealEngine 4, C++<br
+                                    /></span>
+                                </p>
+                                <p class="works-info" lang="en">
+                                    A level of of a dungeon crawler style game where the player has to defeat all the monsters
+                                    and then reach the end.
+                                </p>
+                            </a>
+                            <a class="works-item" href="works-template.html">
+                                <div class="works-video">
+                                    <iframe
                                         src="https://www.youtube.com/embed/iLUeL1ZJa4Y?si=erwqHUYSoy3lIFgg"
                                         title="AI Car behaviour Demo"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen>
-                                      </iframe>
-              </div>
-              <p class="works-name" lang="ja">AI車の自動起動デモ: <span class="italic-font">C++, VisualStudio<br/></span></p>
-              <p class="works-info" lang="ja">作品の説明をここに書いてください</p>
-              <p class="works-name" lang="en">Ai Car behaviour demo: <span class="italic-font">C++, VisualStudio<br/></span></p>
-              <p class="works-info" lang="en">Project Description here</p>
-            </a>
-            <a class="works-item" href="works-template.html">
-              <div class="works-video"><iframe 
+                                        allow="
+                                            accelerometer;
+                                            autoplay;
+                                            clipboard-write;
+                                            encrypted-media;
+                                            gyroscope;
+                                            picture-in-picture;
+                                        "
+                                        allowfullscreen
+                                    >
+                                    </iframe>
+                                </div>
+                                <p class="works-name" lang="ja">
+                                    AI車の自動起動デモ:
+                                    <span class="italic-font"
+                                        >C++, VisualStudio<br
+                                    /></span>
+                                </p>
+                                <p class="works-info" lang="ja">
+                                    状態マシンを利用して車にいろんな目的を目指して動かせるプログラムとAスター探索のデモ。
+                                </p>
+                                <p class="works-name" lang="en">
+                                    Ai Car behaviour demo:
+                                    <span class="italic-font"
+                                        >C++, VisualStudio<br
+                                    /></span>
+                                </p>
+                                <p class="works-info" lang="en">
+                                    A demo of different steering behaviours using a state machine and demonstration of A* Pathfinding
+                                </p>
+                            </a>
+                            <a class="works-item" href="works-template.html">
+                                <div class="works-video">
+                                    <iframe
                                         src="https://www.youtube.com/embed/OGeMlkJUvAg?si=fQZn3Gzv2ytEjSCS"
                                         title="Coin Hero - Pacaman style game"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen>
-                                      </iframe>
-              </div>
-              <p class="works-name" lang="ja">コイン勇者: <span class="italic-font">C++, VisualStudio<br/></span></p>
-              <p class="works-info" lang="ja">作品の説明をここに書いてください</p>
-              <p class="works-name" lang="en">Coin Hero: <span class="italic-font">C++, VisualStudio<br/></span></p>
-              <p class="works-info" lang="en">Project Description here</p>
-            </a>
-            <a class="works-item" href="works-template.html">
-              <div class="works-video"><iframe 
+                                        allow="
+                                            accelerometer;
+                                            autoplay;
+                                            clipboard-write;
+                                            encrypted-media;
+                                            gyroscope;
+                                            picture-in-picture;
+                                        "
+                                        allowfullscreen
+                                    >
+                                    </iframe>
+                                </div>
+                                <p class="works-name" lang="ja">
+                                    コイン勇者:
+                                    <span class="italic-font"
+                                        >C++, VisualStudio<br
+                                    /></span>
+                                </p>
+                                <p class="works-info" lang="ja">
+                                    パクマンみたいなゲームを大学のフレームワークを作ったもの
+                                </p>
+                                <p class="works-name" lang="en">
+                                    Coin Hero:
+                                    <span class="italic-font"
+                                        >C++, VisualStudio<br
+                                    /></span>
+                                </p>
+                                <p class="works-info" lang="en">
+                                    A pacman style game using the university framework
+                                </p>
+                            </a>
+                            <a class="works-item" href="works-template.html">
+                                <div class="works-video">
+                                    <iframe
                                         src="https://www.youtube.com/embed/4cfj-lUnmGY?si=sziQd49458J_7tOO"
                                         title="Chat Server Demo"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen>
-                                      </iframe>
-              </div>
-              <p class="works-name" lang="ja">チャットルーム: <span class="italic-font">C#, WPF, .NETFramework<br/></span></p>
-              <p class="works-info" lang="ja">作品の説明をここに書いてください</p>
-              <p class="works-name" lang="en">Chat Room: <span class="italic-font">C#, WPF, .NETFramework<br/></span></p>
-              <p class="works-info" lang="en">Project Description here</p>
-            </a>
-          </div>
+                                        allow="
+                                            accelerometer;
+                                            autoplay;
+                                            clipboard-write;
+                                            encrypted-media;
+                                            gyroscope;
+                                            picture-in-picture;
+                                        "
+                                        allowfullscreen
+                                    >
+                                    </iframe>
+                                </div>
+                                <p class="works-name" lang="ja">
+                                    チャットルーム:
+                                    <span class="italic-font"
+                                        >C#, WPF, .NETFramework<br
+                                    /></span>
+                                </p>
+                                <p class="works-info" lang="ja">
+                                    ローカルサーバーでチャットルームを作り、ユーザー同士で公開と非公開の会話も可能。サーバーを通して
+                                    他のユーザーとじゃんけんを遊べるのも可能。
+                                </p>
+                                <p class="works-name" lang="en">
+                                    Chat Room:
+                                    <span class="italic-font"
+                                        >C#, WPF, .NETFramework<br
+                                    /></span>
+                                </p>
+                                <p class="works-info" lang="en">
+                                    A chat room hosted locally allowing user to sent public and private messages to each other.
+                                    Users are also able to play rock paper scissors with each other.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- /works -->
+
+                <!-- skill -->
+                <section class="skill section" id="skill">
+                    <div class="container">
+                        <h2 class="title" lang="en">SKILL</h2>
+                        <h2 class="title" lang="ja">スキル</h2>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <p class="skill-img">
+                                    <img src="img/languages.png" alt="" />
+                                </p>
+                                <div class="skill-body">
+                                    <h3 class="skill-name"lang="ja">
+                                        プログラム言語：C++, C#, Python
+                                    </h3>
+                                    <h3 class="skill-name"lang="en">
+                                        Programming languages: C++, C#, Python
+                                    </h3>
+                                    <p class="skill-text"lang="ja">
+                                        大学では基本的にC++とC#を学びゲーム開発のために使っていた言語です。Pythonは高校で学び個人プロジェクトで
+                                        も使っています。
+                                    </p>
+                                    <p class="skill-text"lang="en">
+                                        I used C++ and C# throughout my time at university for game development and learned python
+                                        while I was at high school and one of my personal projects.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <p class="skill-img">
+                                    <img src="img/game_engine.png" alt="" />
+                                </p>
+                                <div class="skill-body">
+                                    <h3 class="skill-name" lang="ja">
+                                        ゲームエンジン：Unreal, Unity
+                                    </h3>
+                                    <h3 class="skill-name" lang="en">
+                                        Game Engines: Unreal, Unity
+                                    </h3>
+                                    <p class="skill-text" lang="ja">
+                                        UnityとUnreal Engineは主に大学で開発したゲームで使っていました。Unrealでは
+                                        ゲームで使うロジックは大体C++でプログラムしそのスクリプトをBlueprintで実行する
+                                        方針で使っていました。
+                                    </p>
+                                    <p class="skill-text" lang="en">
+                                        My experience with Unity and Unreal Engine was while I was at university.
+                                        With Unreal I built my foundations using C++ and implemented my C++ code
+                                        via Unreal's blueprints.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <p class="skill-img">
+                                    <img src="img/framework.png" alt="" />
+                                </p>
+                                <div class="skill-body">
+                                    <h3 class="skill-name" lang="ja">
+                                        APIとフレームワーク：OpenGL, SDL, WPF
+                                    </h3>
+                                    <h3 class="skill-name" lang="en">
+                                        APIs and Frameworks: OpenGL, Vulkan, WPF
+                                    </h3>
+                                    <p class="skill-text"lang="ja">
+                                        OpenGLとWPFはSky Runnerとチャットルームのプロジェクトで使っていますが、Vulkanは現在開発中の
+                                        プロジェクトで使っています。目的はまずPONGを作りそこから2Dゲーム開発のためのフレームワークを作ることです。
+                                    </p>
+                                    <p class="skill-text"lang="en">
+                                        I gained my skills in OpenGL and WPF via the endless runner project and chat room projects.
+                                        I am currently working on a vulkan project to create PONG then turn it into a framework for
+                                        making 2D games.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <p class="skill-img">
+                                    <img src="img/linux.png" alt="" />
+                                </p>
+                                <div class="skill-body">
+                                    <h3 class="skill-name">Linux</h3>
+                                    <p class="skill-text"lang="ja">
+                                        現在使っているパソコンのOSはArch LinuxでHyprlandというデスクトップ環境を使っています。
+                                        他にはFedoraとLinux Mintも使ったことはあります。
+                                    </p>
+                                    <p class="skill-text"lang="en">
+                                        My current PC uses Arch Linux with the Hyprland desktop environment.
+                                        I have also used Fedora and Linux Mint in the past.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--<div class="skill-item">
+                                <p class="skill-img">
+                                    <img src="img/icon_skill.png" alt="" />
+                                </p>
+                                <div class="skill-body">
+                                    <h3 class="skill-name">Illustrator</h3>
+                                    <p class="skill-text">
+                                        テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <p class="skill-img">
+                                    <img src="img/icon_skill.png" alt="" />
+                                </p>
+                                <div class="skill-body">
+                                    <h3 class="skill-name">XD</h3>
+                                    <p class="skill-text">
+                                        テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                                    </p>
+                                </div>
+                            </div>>-->
+                        </div>
+                    </div>
+                </section>
+                <!-- /skill -->
+
+                <!-- about -->
+                <section class="about section" id="about">
+                    <div class="container">
+                        <h2 class="title" lang="en">ABOUT</h2>
+                        <h2 class="title" lang="ja">プロフィール</h2>
+                        <div class="profile">
+                            <p class="profile-img">
+                                <img src="img/Profile_1.jpg" alt="" />
+                            </p>
+                            <div class="profile-body">
+                                <p lang="ja">
+                                    子供の頃からゲームが大好きだったが高校に入ってプログラミングを勉強し、ゲーム開発に興味を持ちました。大学ではゲーム開発部門があることを知り
+                                    イギリスのスタフォード大学でゲーム開発部門に入りました。大学ではC++とC#をゲーム開発の為に学びUnityとUnreal Engineのゲームエンジンも学び
+                                    卒業しました。卒業ごはPythonでデータベースを作りそれを下にデータをグラフで表記する個人プロジェクトを作り、現在はVulkanでPONGを作り、
+                                    更にこれをゲームを開発するための２Dフレームワーク変える個人プロジェクトを進めています。
+                                </p>
+                                <p lang="en">
+                                    I have always enjoyed playing games since I was a child but after learning to code in high school it inspired me to want
+                                    to not just be on the playing side but the creating side. From this I decied to undertake a Bachelors Degree at the
+                                    University of Staffordshire in the Computer Games Development course. Here I learned about the available tools for me such as
+                                    game engines such as Unity and Unreal Engine as well as the C++ and C# programming languages. Since graduating I have worked on
+                                    a couple projects one using Python to create a database to enable the querying of data to produce a pie chart based on that data and
+                                    now am currently working on trying to make a 2D framework for making games using Vulkan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /about -->
+
+                <!-- contact -->
+                <section class="contact section" id="contact">
+                    <div class="container">
+                        <h2 class="title" lang="en">CONTACT AND SOCIAL</h2>
+                        <h2 class="title" lang="ja">連絡先とSNS情報</h2>
+                        <p class="lead" lang="ja">
+                            <br />
+                            お問い合わせは、<br
+                                class="sp-only"
+                            />SNSかメールにてお願いいたします。<br /><br />
+                        </p>
+                        <p class="lead" lang="en">
+                            <br />
+                            Please feel free to contact me via my e-mail or
+                            LinkedIn<br /><br />
+                        </p>
+                        <div class="contact-list">
+                            <a
+                                class="contact-item"
+                                href="https://github.com/thewakiaki"
+                                target="_blank"
+                                rel="noopener"
+                                >GitHub</a
+                            >
+                            <a
+                                class="contact-item"
+                                href="https://www.linkedin.com/in/shibata-aki-wainwright/"
+                                target="_blank"
+                                rel="noopener"
+                                >LinkedIn</a
+                            >
+                            <a
+                                class="contact-item"
+                                href="https://https://www.youtube.com/@AkiPortfolio"
+                                target="_blank"
+                                rel="noopener"
+                                >YouTube</a
+                            >
+                            <span class="contact-item">s.aki.w@proton.me</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- /contact -->
+                <div class="page-top" id="js-page-top">
+                    <span class="material-icons-outlined">expand_less</span>
+                </div>
+            </main>
+
+            <!-- footer -->
+            <footer class="footer">
+                <div class="copyright">&copy;SHIBATA AKI</div>
+            </footer>
+            <!-- /footer -->
         </div>
-      </section>
-      <!-- /works -->
-
-      <!-- skill -->
-      <section class="skill section" id="skill">
-        <div class="container">
-          <h2 class="title" lang="en">SKILL</h2>
-          <h2 class="title" lang="ja">スキル</h2>
-          <div class="skill-list">
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">HTML5/CSS3</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">WordPress</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">JavaScript</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">Photoshop</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">Illustrator</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
-              <div class="skill-body">
-                <h3 class="skill-name">XD</h3>
-                <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /skill -->
-
-      <!-- about -->
-      <section class="about section" id="about">
-        <div class="container">
-          <h2 class="title" lang="en">ABOUT</h2>
-          <h2 class="title" lang="ja">プロフィール</h2>
-          <div class="profile">
-            <p class="profile-img">
-              <img src="img/profile.jpg" alt="">
-            </p>
-            <div class="profile-body">
-              <p>
-                テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
-              </p>
-              <p>
-                テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /about -->
-
-      <!-- contact -->
-      <section class="contact section" id="contact">
-        <div class="container">
-          <h2 class="title" lang="en">CONTACT AND SOCIAL</h2>
-          <h2 class="title" lang="ja">連絡先とSNS情報</h2>
-          <p class="lead" lang="ja"><br/>
-            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。<br/><br/>
-          </p>
-          <p class="lead" lang="en"><br/>
-            Please feel free to contact me via my e-mail or LinkedIn<br/><br/>
-          </p>
-          <div class="contact-list">
-            <a class="contact-item" href="https://github.com/thewakiaki" target="_blank" rel="noopener">GitHub</a>
-            <a class="contact-item" href="https://www.linkedin.com/in/shibata-aki-wainwright/" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="contact-item" href="https://https://www.youtube.com/@AkiPortfolio" target="_blank" rel="noopener">YouTube</a>
-            <span class="contact-item">s.aki.w@proton.me</span>
-          </div>
-        </div>
-      </section>
-      <!-- /contact -->
-      <div class="page-top" id="js-page-top">
-        <span class="material-icons-outlined">expand_less</span>
-      </div>
-    </main>
-
-    <!-- footer -->
-    <footer class="footer">
-      <div class="copyright">&copy;TARO YAMADA</div>
-    </footer>
-    <!-- /footer -->
-
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script type='text/javascript' src="js/script.js"></script>
-</body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
 </html>
